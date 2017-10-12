@@ -1,0 +1,86 @@
+header {
+  font-family: serif;
+  font-size: 50px;
+  font-weight: bold;
+  background-color:rgba(52,109,51, 0.8);
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  margin: 10px 0;
+  padding: 15px;
+  border-style: none;
+  border-color: #000;
+  opacity: 1;
+  position: inherit;
+}
+
+nav {
+  background-color: #b9b9b9;
+  text-align: left;
+  padding: 5px;
+  margin: 0;
+  font-size: 20px;
+  max-width: 100%;
+  margin: 0 0 10px 0;
+  position: relative;
+}
+
+button {
+  color: #fff;
+  background-color: #4c4640;
+  border-radius: 0;
+  border-color: #000;
+}
+
+body {
+  background-color: rgb(75, 75, 75);
+  background-size: cover;
+  background-repeat: no-repeat;
+  clear: both;
+}
+
+form {
+  float: right;
+  text-align: right;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  margin-top: -10px;
+}
+
+label {
+  display: block;
+  margin: 5px;
+}
+.table {
+  float: inherit;
+  display: flex;
+  padding: 0 30px;
+}
+
+table, th, td{
+  background-color: #fff;
+  border: 2px;
+  border-style: solid;
+  border-color: #000;
+}
+
+div.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%
+  height: 300px;
+}
+
+div.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}

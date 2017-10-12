@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="ASI.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="ASI.js"></script>
+  </head>
+
+  <title>
+    <a href="/home/">Automotive Software Interface</a>
+  </title>
+  <body style="background-image:url('Images/ASIBG.jpeg')">
+    <header>
+      ASI
+      <form action="login" id="login" method="post">
+        <label>
+          Username:
+          <input type="text" id="usr" name="Username">
+        </label>
+        <label>
+          Password:
+          <input type="password" id="psw" password="Password">
+        </label>
+          <button type="button" id>New User</button>
+          <button type="submit" id="submitButton">Sumbit</button>
+      </form>
+    </header>
+
+    <!--<nav>
+      <button type="button" id="OpenRepair">Repair Orders</button>
+      <button type="button" id="Parts">Parts Lookup</button>
+      <button type="button"id="Labor">Labor</button>
+      <button type="button" id="ClosedRO">Closed Repair Orders</button>
+    </nav>-->
+    <!--<div class="tab">
+      <button class="tablinks" id="OpenRepair">Repair Orders</button>
+      <button class="tablinks" id="Parts">Parts Lookup</button>
+      <button type="tablink" id="Labor">Labor</button>
+      <button type="tablink" id="ClosedRO">Closed Repair Orders</button>-->
+
+  <div id="main">
+    <div id="sideNav" class="sideNav">
+      <a href="<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>"
+      <a href="#">Open Repair Orders</a>
+      <a href="#">Parts</a>
+      <a href="#">Labor</a>
+      <a href="#">Closed Repair Orders</a>
+    </div>
+      <span onclick="openNav()">open</span>
+  </div>
+    </div>
+    <div class="table" id="OpenROTable">
+      <table style="width:100%">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Year</th>
+          <th>Make</th>
+          <th>Model</th>
+          <th>RO Number</th>
+        </tr>
+        <tr>
+          <td>Mary Smith</td>
+      </table>
+    </div>
+    <div class="table" id="PartsTable">
+      <table style="width:100%">
+        <tr>
+          <th>Part</th>
+          <th>Availibilty</th>
+          <th>List</th>
+          <th>Cost</th>
+        </tr>
+        <tr>
+          <td>Water Pump</td>
+          <td>1 Nearby (6 local)</td>
+          <td>$75.46</td>
+          <td>$68.49</td>
+    <script src="jQueryASI.js"></script>
+  </body>
+</html>
