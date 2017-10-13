@@ -85,35 +85,58 @@ div.tab button {
   transition: 0.3s;
 }
 
-.sidenav {
+.sideNav {
   height: 100%
   width: 0;
   position: fixed;
   z-index: ;
-  top: 0;
+  top: 100px;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
 }
 
-.sidenav a {
+.sideNav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: 818181;
+  color: #818181;
   display: block;
   transition: 0.3s;
 }
 
-.sidenav a:hove, .offcanvas a:focus {
+.sideNav a:hover, .offcanvas a:focus {
   color: #f1f1f1;
 }
 
-.sidenav .closebtn {
+.sideNav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px
+}
+
+.openNav {
+max-width: 100%;
+max-height: 100%;
+}
+
+#navButton {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-right: 5px;
+  font-size: 0;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
